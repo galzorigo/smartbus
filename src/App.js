@@ -7,7 +7,7 @@ import StopNotif from './components/StopNotif';
 import RemoveNotif from './components/RemoveNotif';
 
 
-import { Home, Bus, Settings, Search, Bell, BellMinus ,BellRing} from 'lucide-react'
+import { Home, Bus, Settings, Search, BellMinus ,BellRing} from 'lucide-react'
 
 function App() {
   return (
