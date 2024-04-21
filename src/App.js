@@ -6,13 +6,14 @@ import Toggle from './components/Toggle';
 import StopNotif from './components/StopNotif';
 import RemoveNotif from './components/RemoveNotif';
 import GetOffBus from './components/RemoveNotif';
+import SearchBar from './components/SearchBar';
 
 
 import { Home, Bus, Settings, Search, BellMinus ,BellRing, User, MapPin} from 'lucide-react'
 
 function App() {
   return (
-    <div className="py-[24px] px-[16px] space-y-[48px] h-[2000px]">
+    <div className="py-[24px] px-[16px] space-y-[48px] h-[3000px]">
 
       <div className='space-y-[24px]'>
         <div className='space-y-[8px]'>
@@ -92,6 +93,9 @@ function App() {
         button1="Үгүй"
         button2="Тийм"
       />
+
+      <SearchBar icon={<Search />} />
+
 
       
 
