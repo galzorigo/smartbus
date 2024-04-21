@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './components/Button';
 import NavSingle from './components/NavSingle';
 import Line from './components/Line';
+import Toggle from './components/Toggle';
 
 
 import { Home, Bus, Settings, Search } from 'lucide-react'
@@ -48,6 +49,7 @@ function App() {
         <Line lineCode="ХО:2" line="Богд Уул - Зайсан - Цэцэг Төв" />
       </div>
 
+      <Toggle/>
 
     </div>
   );
