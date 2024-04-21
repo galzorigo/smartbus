@@ -13,7 +13,7 @@ import { Home, Bus, Settings, Search, BellMinus ,BellRing, User, MapPin} from 'l
 
 function App() {
   return (
-    <div className="py-[24px] px-[16px] space-y-[48px] h-[3000px]">
+    <div className="py-[24px] px-[16px] space-y-[48px] h-[3000px] bg-[#FAFAFA]">
 
       <div className='space-y-[24px]'>
         <div className='space-y-[8px]'>
