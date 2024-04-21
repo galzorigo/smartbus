@@ -9,7 +9,7 @@ export default function Toggle() {
   };
 
   return (
-    <div className="flex p-[4px] bg-gray-100 rounded-[12px] gap-[12px]">
+    <div className="flex p-[4px] bg-gray-100 rounded-[12px] gap-[4px]">
         <button
             className={`flex-1 py-2 rounded-[8px] ${
             activeIndex === 0 ? 'bg-white' : ''}`}
