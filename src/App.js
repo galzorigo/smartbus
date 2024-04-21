@@ -6,13 +6,9 @@ import { Home, Bus, Settings, Search } from 'lucide-react'
 
 function App() {
   return (
-    <div className="p-4">
-      <Button className="bg-red-500" onClick={() => alert('1')}>
-        Click me
-      </Button>
-
-      <Button onClick={() => alert('2')}>
-        Click me
+    <div className="py-[24px] px-[16px]">
+      <Button className='w-full max-w-[calc(100%-0.1rem)]'>
+        <p className='text-[16px]'>Click me</p>
       </Button>
 
       <div className='grid grid-cols-4 fixed bottom-0 left-0 w-screen'>
