@@ -5,9 +5,10 @@ import Line from './components/Line';
 import Toggle from './components/Toggle';
 import StopNotif from './components/StopNotif';
 import RemoveNotif from './components/RemoveNotif';
+import GetOffBus from './components/RemoveNotif';
 
 
-import { Home, Bus, Settings, Search, BellMinus ,BellRing} from 'lucide-react'
+import { Home, Bus, Settings, Search, BellMinus ,BellRing, User, MapPin} from 'lucide-react'
 
 function App() {
   return (
@@ -54,7 +55,7 @@ function App() {
       <Toggle/>
 
       <StopNotif
-        icon={<BellRing className='w-8 h-8' />} // Adjust the size of the icon as needed
+        icon={<BellRing className='w-[36px] h-[36px]' />} // Adjust the size of the icon as needed
         title="Мэдэгдэл ирүүлэх"
         description="Уг буудал дээр автобус ирэхээр мэдэгдэл ирүүлэхийг хүсч байна уу? "
         stop={{
@@ -67,7 +68,7 @@ function App() {
       />
 
       <RemoveNotif
-        icon={<BellMinus className='w-8 h-8' />} // Adjust the size of the icon as needed
+        icon={<BellMinus className='w-[36px] h-[36px]' />} // Adjust the size of the icon as needed
         title="Мэдэгдэл болиулах"
         description="Уг буудал дээр автобус ирүүлэхээ болих уу? "
         stop={{
@@ -78,6 +79,21 @@ function App() {
         button1="Үгүй"
         button2="Тийм"
       />
+
+      <GetOffBus
+        icon={<User className='w-[36px] h-[36px]' />} // Adjust the size of the icon as needed
+        title="Автобуснаас буух"
+        description="Та автобуснаас буухдаа итгэлтэй байна уу?"
+        stop={{
+          icon: <MapPin className='w-[24px] h-[24px]' />, // Adjust the size of the icon as needed
+          text: 'Цэцэг төв', // Text for the stop section
+        }}
+              
+        button1="Үгүй"
+        button2="Тийм"
+      />
+
+      
 
     </div>
   );
