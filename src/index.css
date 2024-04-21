@@ -5,3 +5,7 @@
 body {
   margin: 0;
 }
+
+.custom-opacity {
+  background-color: rgba(255, 159, 64, 0.16); /* Adjust the opacity as needed */
+}
