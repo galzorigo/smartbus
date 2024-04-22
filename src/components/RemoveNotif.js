@@ -6,13 +6,13 @@ export default function RemoveNotif({ icon, title, description, stop, button1, b
             </div>
 
             <div className="space-y-[8px]">
-                <p className="font-medium text-[16px] leading-140">{title}</p>
+                <p className="font-bold text-[20px] leading-140">{title}</p>
                 <p className="font-regular text-[16px] leading-160 text-gray-400">{description}</p>
             </div>
 
             <div className="flex items-center gap-[12px] bg-red-500 bg-opacity-10 p-[12px] rounded-[12px]">
                 <p className="text-red-500">{stop.icon}</p>
-                <p className="text-red-500 font-medium">{stop.text}</p>
+                <p className="text-red-500 font-semibold">{stop.text}</p>
             </div>
 
             <div className="flex flex-grow gap-[8px] justify-center items-center">
