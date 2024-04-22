@@ -6,7 +6,7 @@ export default function GetOnBus({ icon, title, description, stop, button1, butt
             </div>
 
             <div className="space-y-[8px]">
-                <p className="font-medium text-[16px] leading-140">{title}</p>
+                <p className="font-semibold text-[16px] leading-140">{title}</p>
                 <p className="font-regular text-[16px] leading-160 text-gray-400">{description}</p>
             </div>
 
@@ -17,11 +17,11 @@ export default function GetOnBus({ icon, title, description, stop, button1, butt
 
             <div className="flex flex-grow gap-[8px] justify-center items-center">
                 <div className="flex-grow h-[44px] bg-gray-100 flex justify-center items-center rounded-[100px] duration-150 ease-in-out active:scale-95">
-                    <p className="text-[16px] font-medium">{button1}</p>
+                    <p className="text-[16px] font-semibold">{button1}</p>
                 </div>
 
                 <div className="flex-grow h-[44px] bg-orange-500 flex justify-center items-center rounded-[100px] duration-150 ease-in-out active:scale-95">
-                    <p className="text-[16px] text-white font-medium">{button2}</p>
+                    <p className="text-[16px] text-white font-semibold">{button2}</p>
                 </div>
             </div>
 

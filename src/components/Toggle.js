@@ -14,14 +14,14 @@ export default function Toggle() {
             className={`flex-1 py-2 rounded-[8px] ${
             activeIndex === 0 ? 'bg-white' : ''}`}
             onClick={() => handleClick(0)}>
-            <p className='font-medium text-[16px]'>Эхлэх цэг</p>
+            <p className='font-semibold text-[16px]'>Эхлэх цэг</p>
         </button>
 
         <button
             className={`flex-1 py-2 rounded-[8px] ${
             activeIndex === 1 ? 'bg-white' : ''}`}
             onClick={() => handleClick(1)}>
-            <p className='font-medium text-[16px]'>Төгсгөлийн цэг</p>
+            <p className='font-semibold text-[16px]'>Төгсгөлийн цэг</p>
         </button>
     </div>
 
