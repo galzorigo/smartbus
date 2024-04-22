@@ -7,9 +7,12 @@ import StopNotif from './components/StopNotif';
 import RemoveNotif from './components/RemoveNotif';
 import GetOffBus from './components/RemoveNotif';
 import SearchBar from './components/SearchBar';
+import BusStop from './components/BusStop';
+import BusStopWithNotif from './components/BusStopWithNotif';
 
 
-import { Home, Bus, Settings, Search, BellMinus ,BellRing, User, MapPin} from 'lucide-react'
+import { Home, Bus, Settings, Search, BellMinus ,BellRing, User, MapPin, Accessibility} from 'lucide-react'
+import { ReactComponent as StopNoNotif } from './customIcons/busty.svg';
 
 function App() {
   return (
@@ -95,6 +98,37 @@ function App() {
       />
 
       <SearchBar icon={<Search />} />
+
+
+      <div className='space-y-[4px]'>
+        <BusStop
+          Stop="Цэцэг Төв"
+          icon={<MapPin className='' />}
+          icon2={<Bus className=''/>}
+          time="12 мин"
+        />
+
+        <BusStop
+          Stop="Цэцэг Төв"
+          icon={<MapPin className='' />}
+          icon2={<Bus className=''/>}
+          time="12 мин"
+        />
+
+        <BusStopWithNotif
+          Stop="Цэцэг Төв"
+          icon={<BellRing className='' />}
+          icon2={<StopNoNotif className=''/>}
+          time="12 мин"
+        />
+
+        <BusStop
+          Stop="Цэцэг Төв"
+          icon={<MapPin className='' />}
+          icon2={<Accessibility className=''/>}
+          time="12 мин"
+        />
+      </div>
 
 
       
