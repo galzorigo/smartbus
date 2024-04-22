@@ -33,7 +33,7 @@ function App() {
         
         {/*Button */}
         <Button className='w-full max-w-[calc(100%-0.1rem)]'>
-          <p className='text-[16px] font-medium'>Чиглэл нэмэх</p>
+          <p className='text-[16px] font-semibold'>Чиглэл нэмэх</p>
         </Button>
       </div>
       
@@ -48,7 +48,7 @@ function App() {
 
         {/*Button*/}
         <Button className='w-full max-w-[calc(100%-0.1rem)]'>
-          <p className='text-[16px] font-medium' >Чиглэл нэмэх</p>
+          <p className='text-[16px] font-semibold' >Чиглэл нэмэх</p>
         </Button>
       </div>
       
