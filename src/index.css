@@ -3,28 +3,28 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'YourFont';
+  font-family: 'SF-Pro-Rounded';
   src: url('Typeface/SF-Pro-Rounded-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'YourFont';
+  font-family: 'SF-Pro-Rounded';
   src: url('Typeface/SF-Pro-Rounded-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'YourFont';
+  font-family: 'SF-Pro-Rounded';
   src: url('Typeface/SF-Pro-Rounded-Semibold.otf') format('opentype');
   font-weight: 600; /* You might need to adjust the numerical value for semibold */
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'YourFont';
+  font-family: 'SF-Pro-Rounded';
   src: url('Typeface/SF-Pro-Rounded-Medium.otf') format('opentype');
   font-weight: medium;
   font-style: normal;
@@ -32,7 +32,7 @@
 
 body {
   margin: 0;
-  font-family: "SF Pro Rounded", sans-serif;
+  font-family: "SF-Pro-Rounded", sans-serif;
 }
 
 .custom-opacity-orange {
