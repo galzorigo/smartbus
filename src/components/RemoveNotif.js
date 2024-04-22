@@ -1,6 +1,6 @@
 export default function RemoveNotif({ icon, title, description, stop, button1, button2 }) {
     return (
-        <div className="flex flex-col flex-grow bg-white p-[20px] space-y-[20px] shadow-xl rounded-[12px] border border-gray-100 ">
+        <div className="flex flex-col flex-grow bg-white p-[20px] space-y-[20px] shadow-xl rounded-[24px] border border-gray-100 ">
             <div className="text-red-500 w-[64px] h-[64px] bg-red-500 bg-opacity-10 rounded-[100px] flex justify-center items-center">
                 {icon}
             </div>

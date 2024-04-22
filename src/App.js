@@ -9,6 +9,8 @@ import GetOffBus from './components/RemoveNotif';
 import SearchBar from './components/SearchBar';
 import BusStop from './components/BusStop';
 import BusStopWithNotif from './components/BusStopWithNotif';
+import GetOnBus from './components/GetOnBus';
+
 
 
 import { Home, Bus, Settings, Search, BellMinus ,BellRing, User, MapPin, Accessibility} from 'lucide-react'
@@ -56,7 +58,10 @@ function App() {
         <Line lineCode="ХО:2" line="Богд Уул - Зайсан - Цэцэг Төв" />
       </div>
 
-      <Toggle/>
+      <div className='space-y-[8px]'>
+        <Toggle/>
+        <SearchBar icon={<Search />} />
+      </div>
 
       <StopNotif
         icon={<BellRing className='w-[36px] h-[36px]' />} // Adjust the size of the icon as needed
@@ -89,16 +94,28 @@ function App() {
         title="Автобуснаас буух"
         description="Та автобуснаас буухдаа итгэлтэй байна уу?"
         stop={{
-          icon: <MapPin className='w-[24px] h-[24px]' />, // Adjust the size of the icon as needed
-          text: 'Цэцэг төв', // Text for the stop section
+          icon: <Bus className='w-[24px] h-[24px]' />, // Adjust the size of the icon as needed
+          text: 'Хайлааст - Цэцэг Төв', // Text for the stop section
         }}
               
         button1="Үгүй"
         button2="Тийм"
       />
 
-      <SearchBar icon={<Search />} />
+      <GetOnBus
+        icon={<User className='w-[36px] h-[36px]' />} // Adjust the size of the icon as needed
+        title="Уг автобусанд суусанд тооцох уу?"
+        description="Тийм гэснээр та буух буудлаа сонгоод буух дөхөхөөр тань танд сануулах болно."
+        stop={{
+          icon: <Bus className='w-[24px] h-[24px]' />, // Adjust the size of the icon as needed
+          text: 'Хайлааст - Цэцэг Төв', // Text for the stop section
+        }}
+              
+        button1="Үгүй"
+        button2="Тийм"
 
+      
+      />
 
       <div className='space-y-[4px]'>
         <BusStop
