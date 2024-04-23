@@ -17,11 +17,11 @@ export default function StopNotif({ icon, title, description, stop, button1, but
 
             <div className="flex flex-grow gap-[8px] justify-center items-center">
                 <div className="flex-grow h-[44px] bg-gray-100 flex justify-center items-center rounded-[100px] duration-150 ease-in-out active:scale-95">
-                    <p className="text-[16px] font-medium">{button1}</p>
+                    <p className="text-[16px] font-semibold">{button1}</p>
                 </div>
 
                 <div className="flex-grow h-[44px] bg-blue-500 flex justify-center items-center rounded-[100px] duration-150 ease-in-out active:scale-95">
-                    <p className="text-[16px] text-white font-medium">{button2}</p>
+                    <p className="text-[16px] text-white font-semibold">{button2}</p>
                 </div>
             </div>
 
