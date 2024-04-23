@@ -16,6 +16,13 @@ import GetOnBus from './components/GetOnBus';
 import { Home, Bus, Settings, Search, BellMinus ,BellRing, User, MapPin, Accessibility} from 'lucide-react'
 import { ReactComponent as StopNoNotif } from './customIcons/busty.svg';
 
+import { ReactComponent as BellRingFilled } from './customIcons/BellRingFilled.svg';
+import { ReactComponent as BellMinusFilled } from './customIcons/BellMinusFilled.svg';
+import { ReactComponent as UserFilled } from './customIcons/UserFilled.svg';
+import { ReactComponent as UserRedFilled } from './customIcons/UserRedFilled.svg';
+
+import { ReactComponent as MapPinFilled } from './customIcons/MapPinFilled.svg';
+
 function App() {
   return (
 
@@ -76,11 +83,11 @@ function App() {
 
       {/*Set notification at a bus stop modal*/}
       <StopNotif
-        icon={<BellRing className='w-[36px] h-[36px]' />}
+        icon={<BellRingFilled className='w-[36px] h-[36px]' />}
         title="Мэдэгдэл ирүүлэх"
         description="Уг буудал дээр автобус ирэхээр мэдэгдэл ирүүлэхийг хүсч байна уу? "
         stop={{
-          icon: <BellRing className='w-[24px] h-[24px]' />,
+          icon: <BellRingFilled className='w-[24px] h-[24px]' />,
           text: 'Цэцэг төв',
         }}
         
@@ -90,9 +97,9 @@ function App() {
 
       {/*Remove notification from a bus stop modal*/}
       <RemoveNotif
-        icon={<BellMinus className='w-[36px] h-[36px]' />}
+        icon={<BellMinusFilled className='w-[36px] h-[36px]' />}
         title="Мэдэгдэл болиулах"
-        description="Уг буудал дээр автобус ирүүлэхээ болих уу? "
+        description="Уг буудал дээр автобус ирэхээр мэдэгдэл ирүүлэхийг болих уу? "
         stop={{
           icon: <BellMinus className='w-[24px] h-[24px]' />,
           text: 'Цэцэг төв',
@@ -104,7 +111,7 @@ function App() {
 
       {/*Get off bus modal*/}
       <GetOffBus
-        icon={<User className='w-[36px] h-[36px]' />}
+        icon={<UserRedFilled className='w-[36px] h-[36px]' />}
         title="Автобуснаас буух"
         description="Та автобуснаас буухдаа итгэлтэй байна уу?"
         stop={{
@@ -118,7 +125,7 @@ function App() {
 
       {/*Get on this bus modal*/}
       <GetOnBus
-        icon={<User className='w-[36px] h-[36px]' />} // Adjust the size of the icon as needed
+        icon={<UserFilled className='w-[36px] h-[36px]' />} // Adjust the size of the icon as needed
         title="Уг автобусанд суусанд тооцох уу?"
         description="Тийм гэснээр та буух буудлаа сонгоод буух дөхөхөөр тань танд сануулах болно."
         stop={{
@@ -139,14 +146,14 @@ function App() {
 
         <BusStop 
           Stop="Цэцэг Төв"
-          icon={<MapPin className='' />}
+          icon={<MapPinFilled className='' />}
           icon2={<Bus className=''/>}
           time="12 мин"
         />
 
         <BusStop
           Stop="Цэцэг Төв"
-          icon={<MapPin className='' />}
+          icon={<MapPinFilled className='' />}
           icon2={<Bus className=''/>}
           time="12 мин"
         />
@@ -160,7 +167,7 @@ function App() {
 
         <BusStop
           Stop="Цэцэг Төв"
-          icon={<MapPin className='' />}
+          icon={<MapPinFilled className='' />}
           icon2={<Accessibility className=''/>}
           time="12 мин"
         />
