@@ -17,7 +17,6 @@ import GetOnBus from './components/GetOnBus';
 import { Home, Bus, Settings, Search, BellMinus ,BellRing, Accessibility, ArrowLeft} from 'lucide-react'
 import { ReactComponent as StopNoNotif } from './customIcons/busty.svg';
 
-
 import { ReactComponent as BellRingFilled } from './customIcons/BellRingFilled.svg';
 import { ReactComponent as BellMinusFilled } from './customIcons/BellMinusFilled.svg';
 import { ReactComponent as UserFilled } from './customIcons/UserFilled.svg';
