@@ -61,6 +61,23 @@ function Components() {
 
       </div>
 
+      <div className='space-y-[12px]'>
+
+        <h1 className='text-[20px] font-semibold leading-[120%]'>'Navigation' хэсэг</h1>
+
+        <p className='text-gray-400 leading-[140%]'>Navigation</p>
+
+        <div className='grid grid-cols-4 left-0 w-screen bg-white bg-opacity-50 backdrop-blur-sm border-t border-gray-100'>
+          <NavSingle icon={<Home className="w-[32px] h-[32px]"/>} title="Нүүр" link="/home" />
+          <NavSingle icon={<Bus className="w-[32px] h-[32px]"/>} title="Миний" link="/bus" />
+          <NavSingle icon={<Search className="w-[32px] h-[32px]"/>} title="Хайх" link="/search" />
+          <NavSingle icon={<Settings className="w-[32px] h-[32px]"/>} title="Тохиргоо" link="/settings" />
+        </div>
+
+      </div>
+
+      
+
       <div className='space-y-[24px]'>
         <h1 className='text-[20px] font-semibold leading-[120%]'>Автобус</h1>
 
@@ -79,33 +96,26 @@ function Components() {
           <p className='text-gray-400 leading-[140%]'>Автобусны буудлууд</p>
           
           <div className='space-y-[4px]'>
-          <BusStop 
-          Stop="Цэцэг Төв"
-          icon={<MapPinFilled className='' />}
-          icon2={<Bus className=''/>}
-          time="12 мин"
-        />
+            <BusStop
+              Stop="Цэцэг Төв"
+              icon={<MapPinFilled className='' />}
+              icon2={<Bus className=''/>}
+              time="12 мин"
+            />
 
-        <BusStop
-          Stop="Цэцэг Төв"
-          icon={<MapPinFilled className='' />}
-          icon2={<Bus className=''/>}
-          time="12 мин"
-        />
+            <BusStopWithNotif
+              Stop="Цэцэг Төв"
+              icon={<BellRing className='' />}
+              icon2={<StopNoNotif className=''/>}
+              time="12 мин"
+            />
 
-        <BusStopWithNotif
-          Stop="Цэцэг Төв"
-          icon={<BellRing className='' />}
-          icon2={<StopNoNotif className=''/>}
-          time="12 мин"
-        />
-
-        <BusStop
-          Stop="Цэцэг Төв"
-          icon={<MapPinFilled className='' />}
-          icon2={<Accessibility className=''/>}
-          time="12 мин"
-        />
+            <BusStop
+              Stop="Цэцэг Төв"
+              icon={<MapPinFilled className='' />}
+              icon2={<Accessibility className=''/>}
+              time="12 мин"
+            />
           </div>
         </div>
       </div>
