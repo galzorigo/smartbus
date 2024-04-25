@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Button from './components/Button';
 import NavSingle from './components/NavSingle';
@@ -13,8 +14,9 @@ import GetOnBus from './components/GetOnBus';
 
 
 
-import { Home, Bus, Settings, Search, BellMinus ,BellRing, Accessibility} from 'lucide-react'
+import { Home, Bus, Settings, Search, BellMinus ,BellRing, Accessibility, ArrowLeft} from 'lucide-react'
 import { ReactComponent as StopNoNotif } from './customIcons/busty.svg';
+
 
 import { ReactComponent as BellRingFilled } from './customIcons/BellRingFilled.svg';
 import { ReactComponent as BellMinusFilled } from './customIcons/BellMinusFilled.svg';
@@ -23,7 +25,7 @@ import { ReactComponent as UserRedFilled } from './customIcons/UserRedFilled.svg
 
 import { ReactComponent as MapPinFilled } from './customIcons/MapPinFilled.svg';
 
-function App() {
+function Components() {
   return (
 
     /*Body*/
@@ -39,9 +41,9 @@ function App() {
         </div>
         
         {/*Button */}
-        <Button className='w-full max-w-[calc(100%-0.1rem)]'>
-          <p className='text-[16px] font-semibold'>Чиглэл нэмэх</p>
-        </Button>
+          <Button className='w-full max-w-[calc(100%-0.1rem)]'>
+            <p className='text-[16px] font-semibold'>Чиглэл нэмэх</p>
+          </Button>
       </div>
       
       {/*Wrapper*/}
@@ -180,4 +182,4 @@ function App() {
   );
 }
 
-export default App;
+export default Components;
