@@ -3,7 +3,7 @@
   "short_name": "U-Bus",
   "theme_color": "#fff",
   "background_color": "#fff",
-  "display": "stamdalone",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "icons": [
