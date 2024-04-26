@@ -24,12 +24,6 @@ export default function RemoveNotif({ icon, title, description, stop, button1, b
                     <p className="text-[16px] text-white font-semibold">{button2}</p>
                 </div>
             </div>
-
-
-
-            
         </div>
-
-        
     )
 }

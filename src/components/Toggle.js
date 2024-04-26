@@ -24,7 +24,6 @@ export default function Toggle() {
             <p className='font-semibold text-[16px]'>Төгсгөлийн цэг</p>
         </button>
     </div>
-
   );
 }
 

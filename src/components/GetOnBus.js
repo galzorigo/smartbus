@@ -24,12 +24,6 @@ export default function GetOnBus({ icon, title, description, stop, button1, butt
                     <p className="text-[16px] text-white font-semibold">{button2}</p>
                 </div>
             </div>
-
-
-
-            
         </div>
-
-        
     )
 }

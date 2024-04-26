@@ -24,12 +24,6 @@ export default function StopNotif({ icon, title, description, stop, button1, but
                     <p className="text-[16px] text-white font-semibold">{button2}</p>
                 </div>
             </div>
-
-
-
-            
         </div>
-
-        
     )
 }

@@ -38,7 +38,7 @@ function Components() {
         <div className='flex flex-col gap-[12px]'>
           <p className='text-gray-400 leading-[140%]'>Улбар шар товч</p>
           
-          <Button className="additional-classes" variant={1}>
+          <Button variant={1}>
             Намайг дар
           </Button>
         </div>
@@ -46,7 +46,7 @@ function Components() {
         <div className='flex flex-col gap-[12px]'>
           <p className='text-gray-400 leading-[140%]'>Хөх товч</p>
           
-          <Button className="additional-classes" variant={2}>
+          <Button variant={2}>
             Намайг дар
           </Button>
         </div>
@@ -54,7 +54,7 @@ function Components() {
         <div className='flex flex-col gap-[12px]'>
           <p className='text-gray-400 leading-[140%]'>Саарал товч</p>
           
-          <Button className="additional-classes" variant={3}>
+          <Button variant={3}>
             Намайг дар
           </Button>
         </div>
@@ -178,12 +178,12 @@ function Components() {
           <p className='text-gray-400 leading-[140%]'>Автобусанд суух</p>
           
           <GetOnBus
-            icon={<UserFilled className='w-[36px] h-[36px]' />} // Adjust the size of the icon as needed
+            icon={<UserFilled className='w-[36px] h-[36px]' />}
             title="Уг автобусанд суусанд тооцох уу?"
             description="Тийм гэснээр та буух буудлаа сонгоод буух дөхөхөөр тань танд сануулах болно."
             stop={{
-              icon: <Bus className='w-[24px] h-[24px]' />, // Adjust the size of the icon as needed
-              text: 'Хайлааст - Цэцэг Төв', // Text for the stop section
+              icon: <Bus className='w-[24px] h-[24px]' />,
+              text: 'Хайлааст - Цэцэг Төв',
             }}
                   
             button1="Үгүй"
