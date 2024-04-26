@@ -13,7 +13,6 @@ import BusStopWithNotif from './components/BusStopWithNotif';
 import GetOnBus from './components/GetOnBus';
 
 
-
 import { Home, Bus, Settings, Search, BellMinus ,BellRing, Accessibility} from 'lucide-react'
 import { ReactComponent as StopNoNotif } from './customIcons/busty.svg';
 
