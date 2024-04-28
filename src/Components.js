@@ -129,7 +129,7 @@ function Components() {
       </div>
       
       {/*Nav Bar*/}
-      <div className='grid grid-cols-4 fixed bottom-0 left-0 w-screen bg-white bg-opacity-50 backdrop-blur-sm border-t border-gray-100'>
+      <div className='grid grid-cols-4 fixed pb-[20px] bottom-0 left-0 w-screen bg-white bg-opacity-50 backdrop-blur-sm border-t border-gray-100'>
         <NavSingle icon={<Home className="w-[32px] h-[32px]"/>} title="Нүүр" link="/home" />
         <NavSingle icon={<Bus className="w-[32px] h-[32px]"/>} title="Миний" link="/bus" />
         <NavSingle icon={<Search className="w-[32px] h-[32px]"/>} title="Хайх" link="/search" />
